@@ -38,52 +38,52 @@ This project aims to generate high-quality advertisement images for various prod
 
 **Repository Structure:**
 
-input_product: Contains input product images with a white background.
-background_images: Contains background images or text prompts to generate background images.
-output_images: Will contain the generated output images.
-generate_images.py: Python script to generate output images using StyleGAN2.
+1.input_product: Contains input product images with a white background.
+2.background_images: Contains background images or text prompts to generate background images.
+3.output_images: Will contain the generated output images.
+4.generate_images.py: Python script to generate output images using StyleGAN2.
 
 **Setting up the Environment:**
 
 **Installation:**
-Ensure you have Python installed on your system.
-Install TensorFlow by running pip install tensorflow.
-Clone the StyleGAN2 repository from GitHub: git clone https://github.com/NVlabs/stylegan2.git.
-Download Pretrained Model:
-Download a pretrained StyleGAN2 model from the official repository or use a pre-trained model available online.
-Save the model file (.pkl) in the project directory.
+1.Ensure you have Python installed on your system.
+2.Install TensorFlow by running pip install tensorflow.
+3.Clone the StyleGAN2 repository from GitHub: git clone https://github.com/NVlabs/stylegan2.git.
+4.Download Pretrained Model:
+5.Download a pretrained StyleGAN2 model from the official repository or use a pre-trained model available online.
+6.Save the model file (.pkl) in the project directory.
 
 **Running the Code:**
 
 **Prepare Data:**
-Ensure input product images are placed in the input_product folder with a white background.
-Gather background images or text prompts in the background_images folder.
+1.Ensure input product images are placed in the input_product folder with a white background.
+2.Gather background images or text prompts in the background_images folder.
 **Execute Script:**
-Open a terminal or command prompt and navigate to the project directory.
-Run the Python script generate_images.py using the command python generate_images.py.
+1.Open a terminal or command prompt and navigate to the project directory.
+2.Run the Python script generate_images.py using the command python generate_images.py.
 **Review Output:**
-After the script finishes execution, navigate to the output_images folder.
-Review the generated images to ensure they meet the assignment criteria.
+1.After the script finishes execution, navigate to the output_images folder.
+2.Review the generated images to ensure they meet the assignment criteria.
 
 **Evaluation:**
 
 **Quality Assessment**:
-Manually review each generated image for quality, clarity, and aesthetic appeal.
-Ensure brand names and products are prominently featured and clearly visible.
-Evaluate the merging of product images with backgrounds for seamless integration.
+1.Manually review each generated image for quality, clarity, and aesthetic appeal.
+2.Ensure brand names and products are prominently featured and clearly visible.
+3.Evaluate the merging of product images with backgrounds for seamless integration.
 **Variety and Consistency:**
-Check that each product image has 5 output images with different backgrounds, totaling 25 images.
-Ensure consistency in style and aesthetic across all generated images.
+1.Check that each product image has 5 output images with different backgrounds, totaling 25 images.
+2.Ensure consistency in style and aesthetic across all generated images.
 
 **Project Submission:**
 
 **GitHub Repository:**
-Ensure all input product images, background images, and the generated output images are present in the repository.
-Include the generate_images.py script and any additional files used in the project.
+1.Ensure all input product images, background images, and the generated output images are present in the repository.
+2.Include the generate_images.py script and any additional files used in the project.
 **README File:**
-Provide detailed instructions on setting up the environment, running the code, and any modifications made to the StyleGAN2 framework.
-Include a brief overview of the project, repository structure, and evaluation criteria.
-Mention any additional notes or considerations for the reviewers.
+1.Provide detailed instructions on setting up the environment, running the code, and any modifications made to the StyleGAN2 framework.
+2.Include a brief overview of the project, repository structure, and evaluation criteria.
+3.Mention any additional notes or considerations for the reviewers.
 
 
 **Contributions:**
