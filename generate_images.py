@@ -2,7 +2,8 @@ import tensorflow as tf
 import pickle
 
 # Path to the downloaded pretrained model file (.pkl)
-model_path = '~/stylegan2_models/stylegan2-ffhq-config-f.pkl'
+model_path = r'C:\Users\Jaya Gayatri Vukkum\Downloads\stylegan2-ffhq-config-f.pkl'
+
 
 # Load the network from the pretrained model file
 with open(model_path, 'rb') as f:
